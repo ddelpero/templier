@@ -2,6 +2,7 @@ package main
 
 import (
 	_ "embed"
+	"os"
 	"testing"
 
 	"github.com/romshark/templier/internal/config"
@@ -17,4 +18,6 @@ func TestExampleConfig(t *testing.T) {
 
 	err := yamagiconf.Load(exampleConfig, &c)
 	require.NoError(t, err)
+	c.App.SetEnv()
+	require.Equal(t, "example-value", os.Getenv("EXAMPLE_ENV_VAR"))
 }

@@ -132,6 +132,9 @@ func main() {
 		}
 	}
 
+	//set env variables from ConfigApp
+	conf.App.SetEnv()
+
 	go runTemplierServer(st, reload, conf)
 	go runAppLauncher(ctx, st, reload, conf)
 
