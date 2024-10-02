@@ -44,8 +44,9 @@ tls:
   key: ./your-application.key.pem
 
 app:
-  env:
+  environment:
       EXAMPLE_ENV_VAR: "example-value"
+      EXAMPLE_ENV_URL: "https://example.com"
 
   # app.dir-src-root defines the path to the Go module source root directory.
   dir-src-root: ./
