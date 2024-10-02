@@ -10,7 +10,6 @@ require (
 	github.com/fsnotify/fsnotify v1.7.0
 	github.com/gobwas/glob v0.2.3
 	github.com/gorilla/websocket v1.5.3
-	github.com/romshark/templier v0.7.1
 	github.com/romshark/yamagiconf v1.0.1
 	github.com/stretchr/testify v1.9.0
 )

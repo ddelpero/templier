@@ -4,7 +4,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/romshark/templier/internal/statetrack"
+	"github.com/ddelpero/templier/internal/statetrack"
 	"github.com/stretchr/testify/require"
 )
 

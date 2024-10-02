@@ -3,7 +3,7 @@ package action_test
 import (
 	"testing"
 
-	"github.com/romshark/templier/internal/action"
+	"github.com/ddelpero/templier/internal/action"
 	"github.com/stretchr/testify/require"
 )
 

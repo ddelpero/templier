@@ -15,9 +15,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/ddelpero/templier/internal/action"
+	"github.com/ddelpero/templier/internal/log"
 	"github.com/gobwas/glob"
-	"github.com/romshark/templier/internal/action"
-	"github.com/romshark/templier/internal/log"
 	"github.com/romshark/yamagiconf"
 )
 

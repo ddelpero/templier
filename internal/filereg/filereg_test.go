@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/romshark/templier/internal/filereg"
+	"github.com/ddelpero/templier/internal/filereg"
 	"github.com/stretchr/testify/require"
 )
 

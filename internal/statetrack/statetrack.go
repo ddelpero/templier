@@ -3,7 +3,7 @@ package statetrack
 import (
 	"sync"
 
-	"github.com/romshark/templier/internal/broadcaster"
+	"github.com/ddelpero/templier/internal/broadcaster"
 )
 
 const (

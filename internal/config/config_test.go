@@ -4,7 +4,7 @@ import (
 	_ "embed"
 	"testing"
 
-	"github.com/romshark/templier/internal/config"
+	"github.com/ddelpero/templier/internal/config"
 	"github.com/romshark/yamagiconf"
 
 	"github.com/stretchr/testify/require"

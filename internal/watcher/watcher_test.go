@@ -7,7 +7,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/romshark/templier/internal/watcher"
+	"github.com/ddelpero/templier/internal/watcher"
 
 	"github.com/fsnotify/fsnotify"
 	"github.com/stretchr/testify/require"

@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/romshark/templier/internal/debounce"
+	"github.com/ddelpero/templier/internal/debounce"
 	"github.com/stretchr/testify/require"
 )
 

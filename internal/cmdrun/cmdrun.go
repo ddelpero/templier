@@ -9,8 +9,8 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/romshark/templier/internal/log"
-	"github.com/romshark/templier/internal/statetrack"
+	"github.com/ddelpero/templier/internal/log"
+	"github.com/ddelpero/templier/internal/statetrack"
 )
 
 var ErrExitCode1 = errors.New("exit code 1")

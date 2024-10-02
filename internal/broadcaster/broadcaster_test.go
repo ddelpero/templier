@@ -5,7 +5,7 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/romshark/templier/internal/broadcaster"
+	"github.com/ddelpero/templier/internal/broadcaster"
 	"github.com/stretchr/testify/require"
 )
 

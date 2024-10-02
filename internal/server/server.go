@@ -15,11 +15,11 @@ import (
 	"time"
 
 	"github.com/andybalholm/brotli"
+	"github.com/ddelpero/templier/internal/broadcaster"
+	"github.com/ddelpero/templier/internal/config"
+	"github.com/ddelpero/templier/internal/log"
+	"github.com/ddelpero/templier/internal/statetrack"
 	"github.com/gorilla/websocket"
-	"github.com/romshark/templier/internal/broadcaster"
-	"github.com/romshark/templier/internal/config"
-	"github.com/romshark/templier/internal/log"
-	"github.com/romshark/templier/internal/statetrack"
 )
 
 const (
