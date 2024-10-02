@@ -56,6 +56,8 @@ github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZb
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/rogpeppe/go-internal v1.12.0 h1:exVL4IDcn6na9z1rAb56Vxr+CgyK3nn3O+epU5NdKM8=
 github.com/rogpeppe/go-internal v1.12.0/go.mod h1:E+RYuTGaKKdloAfM02xzb0FW3Paa99yedzYV+kq4uf4=
+github.com/romshark/templier v0.7.1 h1:kwrMEVpmG9A/8wAoB6sRkEr8Bv7urI2x1u1IN6yeESM=
+github.com/romshark/templier v0.7.1/go.mod h1:2SIqtQ06tuq2CGiNDigahBQgGPfbzYL2T+ynnJhwWVA=
 github.com/romshark/yamagiconf v1.0.1 h1:Qu9h1x7cbKDeIuIhzatTSFFKjUn+TjRKFVcsK7ttVnY=
 github.com/romshark/yamagiconf v1.0.1/go.mod h1:4he9W8TMussvTt4BdrEn9KNtCiah2PJdEZKXSZ7Bsjk=
 github.com/segmentio/asm v1.2.0 h1:9BQrFxC+YOHJlTlHGkTrFWf59nbL3XnCoFLTwDCI7ys=
