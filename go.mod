@@ -1,4 +1,4 @@
-module github.com/romshark/templier
+module github.com/ddelpero/templier
 
 go 1.23.1
 
