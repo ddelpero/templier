@@ -81,7 +81,7 @@ type ConfigApp struct {
 	// DirWork is the working directory to run the application server from.
 	DirWork string `yaml:"dir-work" validate:"dirpath,required"`
 
-	Environment map[string]string `yaml:"environment"`
+	Env map[string]string `yaml:"env"`
 
 	// GoFlags are the CLI arguments to be passed to the go compiler when
 	// compiling the application server.
@@ -99,8 +99,8 @@ func (c *ConfigApp) DirSrcRootAbsolute() string { return c.dirSrcRootAbsolute }
 
 // SetEnv sets the environment variables defined in the config.
 func (c *ConfigApp) SetEnv() {
-	for k, v := range c.Environment {
-		if err := os.Setenv(k, fmt.Sprint(v)); err != nil {
+	for k, v := range c.Env {
+		if err := os.Setenv(k, v); err != nil {
 			log.Errorf("setting env variable %q: %v", k, err)
 		}
 	}

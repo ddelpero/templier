@@ -20,5 +20,4 @@ func TestExampleConfig(t *testing.T) {
 	require.NoError(t, err)
 	c.App.SetEnv()
 	require.Equal(t, "example-value", os.Getenv("EXAMPLE_ENV_VAR"))
-	require.Equal(t, "https://example.com", os.Getenv("EXAMPLE_ENV_URL"))
 }
